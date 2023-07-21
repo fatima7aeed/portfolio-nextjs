@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/logo-3.jpg'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -61,7 +61,7 @@ const Navbar = () => {
               src={NavLogo}
               alt='/'
               width='125'
-              height='50'
+              height='65'
               className='cursor-pointer'
             />
           </a>
@@ -177,7 +177,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/fatima-saeed-b3775b25b/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -186,7 +186,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/fatima7aeed'
                   target='_blank'
                   rel='noreferrer'
                 >
