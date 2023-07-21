@@ -6,7 +6,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Fatima | Resume</title>
         <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
@@ -17,17 +17,17 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Fatima Saeed</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/fatima-saeed-b3775b25b/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/fatima7aeed'
               target='_blank'
               rel='noreferrer'
             >
@@ -71,18 +71,12 @@ const resume = () => {
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
           </p>
-          <p className='py-2'>
+          {/* <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
             <span className='px-2'>|</span>Amazon Web Services Cloud
             Practitioner
-          </p>
+          </p> */}
         </div>
 
         <h5 className='text-center underline text-[18px] py-4'>
@@ -94,7 +88,7 @@ const resume = () => {
             <span className='font-bold italic'>
             INFINITE TECH
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Karachi, Pakistan
           </p>
           <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
