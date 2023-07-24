@@ -34,11 +34,11 @@ const About = () => {
           Although I might have deviated from my original dream, I now embrace my new passion for coding with the same determination and dedication I once had for medicine. Who knows, maybe one day I'll find a way to combine both worlds and create innovative medical applications that can improve healthcare for everyone.
           </p>
           
-          <Link href='/#projects'>
+          {/* <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects.
             </p>
-          </Link>
+          </Link> */}
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />
