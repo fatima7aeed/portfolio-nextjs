@@ -13,7 +13,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-          "Coding: A flame that consumed me."
+          &#34;Coding: A flame that consumed me.&#34;
           </p>
           <p className='py-2 text-gray-600'>
             I had always dreamed of becoming a doctor, using my skills to help others and make a positive impact on people's lives. With my passion for biology and the pursuit of medical knowledge, I envisioned a fulfilling career in healthcare. However, life took an unexpected turn, and I found myself immersed in the world of coding.

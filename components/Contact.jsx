@@ -31,7 +31,7 @@ const Contact = () => {
                 <p>Front-End Developer</p>
                 <p className='py-4'>
                 I am actively seeking internship or full-time positions.
-                Please feel free to reach out to me, and let's start a conversation!
+                Please feel free to reach out to me, and let&apos;s start a conversation!
                 </p>
               </div>
               <div>
