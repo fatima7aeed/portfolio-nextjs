@@ -38,26 +38,19 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
-              <span className='px-1'>|</span> Complex Problem Solving
+              Complex Problem-Solving <span className='px-1'>|</span> Strong Interpersonal Abilities{' '}
             </p>
           </div>
           <div className='block sm:hidden'>
-            <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
-            <p>Complex Problem Solving</p>
+            <p>Complex Problem-Solving</p>
+            <p className='py-2'>Strong Interpersonal Abilities</p>
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+        Analytical, innovative, and motivated student with a background in teaching
+        and customer care service. Currently pursuing a front-end development course,
+        I am an empathetic and consistent individual. I excel in critical thinking,
+        idea generation, and optimizing efficiencies with a strong passion for web development.
         </p>
 
         {/* Skills */}
@@ -69,6 +62,7 @@ const resume = () => {
             <span className='px-2'>|</span> HTML
             <span className='px-2'>|</span>CSS
             <span className='px-2'>|</span>Javascript
+            <span className='px-2'>|</span>Version control
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
           </p>
@@ -80,33 +74,65 @@ const resume = () => {
         </div>
 
         <h5 className='text-center underline text-[18px] py-4'>
+          Education
+        </h5>
+        {/* Education */}
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            Bachelor in Biochemistry 
+            </span>
+            <span className='px-2'>|</span>Karachi, Pakistan
+          </p>
+          <p className='py-1 italic'>University of Karachi(2021 - Current)</p>
+          {/* <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            Collaborated effectively, delivering user-centric front-end web designs by utilizing strong communication
+            and problem-solving skills.
+            </li>
+            <li>
+            Created visually polished and intuitive web experiences by employing empathy and attention to detail.
+            </li>
+          </ul> */}
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            Front-End Web Development Certification 
+            </span>
+            <span className='px-2'>|</span>Karachi, Pakistan
+          </p>
+          <p className='py-1 italic'>Coursera(2022 - Current)</p>
+          {/* <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+            Collaborated effectively, delivering user-centric front-end web designs by utilizing strong communication
+            and problem-solving skills.
+            </li>
+            <li>
+            Created visually polished and intuitive web experiences by employing empathy and attention to detail.
+            </li>
+          </ul> */}
+        </div>
+
+        <h5 className='text-center underline text-[18px] py-4'>
           Professional Experience
         </h5>
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            INFINITE TECH
+            IBEX
             </span>
             <span className='px-2'>|</span>Karachi, Pakistan
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
+          <p className='py-1 italic'>Customer care Service(2022)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+            Utilized strong communication and problem-solving skills to deliver excellent customer service
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
-            </li>
-            <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
-            </li>
-            <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+            Developed empathy and attention to detail while resolving customer inquiries and addressing concerns.
             </li>
           </ul>
         </div>
@@ -116,32 +142,28 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
+              TEACHING
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Karachi, Pakistan
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
+          <p className='py-1 italic'>(2020 - 2022)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
+            Nurtured the minds of young students, developing valuable communication, patience, and adaptability skills.
             </li>
             <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
+            Created a supportive and engaging learning environment using interactive teaching methods.
             </li>
           </ul>
         </div>
 
-        {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
+        
+        {/* <h5 className='text-center underline text-[18px] py-4'>
           Other Professional Experience
-        </h5>
+        </h5> */}
       
         {/* Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold'>CITY OF SHERMAN, TX</span>
             <span className='px-2'>|</span>Sherman, TX
@@ -175,7 +197,7 @@ const resume = () => {
               Support, among others.
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );
