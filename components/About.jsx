@@ -16,7 +16,7 @@ const About = () => {
           &#34;Coding: A flame that consumed me.&#34;
           </p>
           <p className='py-2 text-gray-600'>
-            I had always dreamed of becoming a doctor, using my skills to help others and make a positive impact on people's lives. With my passion for biology and the pursuit of medical knowledge, I envisioned a fulfilling career in healthcare. However, life took an unexpected turn, and I found myself immersed in the world of coding.
+            I had always dreamed of becoming a doctor, using my skills to help others and make a positive impact on people&apos;s lives. With my passion for biology and the pursuit of medical knowledge, I envisioned a fulfilling career in healthcare. However, life took an unexpected turn, and I found myself immersed in the world of coding.
             </p>
           <p className='py-2 text-gray-600'>
             As I began my journey, I couldn't help but feel a bit uncertain about this new path. Yet, the moment I started learning, I felt a spark ignite within me. It was like finding the missing puzzle piece that I never knew I needed. From my first JavaScript tutorial to exploring React and version control, I became captivated by the creative and problem-solving aspects of web development.
@@ -31,7 +31,7 @@ const About = () => {
             As a beginner, I'm still enthusiastically exploring different programming languages, frameworks, and principles, eager to weave them into the coding web in my mind.
             </p>
           <p className='py-2 text-gray-600'>
-          Although I might have deviated from my original dream, I now embrace my new passion for coding with the same determination and dedication I once had for medicine. Who knows, maybe one day I'll find a way to combine both worlds and create innovative medical applications that can improve healthcare for everyone.
+          Although I might have deviated from my original dream, I now embrace my new passion for coding with the same determination and dedication I once had for medicine. Who knows, maybe one day I&apos;ll find a way to combine both worlds and create innovative medical applications that can improve healthcare for everyone.
           </p>
           
           {/* <Link href='/#projects'>
