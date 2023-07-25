@@ -80,7 +80,7 @@ const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action='https://getform.io/f/2fdd2e4d-1971-488c-8fc6-ee8876d2fe2a'
                 method='POST'
                 encType='multipart/form-data'
               >
