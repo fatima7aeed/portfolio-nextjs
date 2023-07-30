@@ -15,8 +15,7 @@ const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
-        <p>Absolutely Nothing</p>
-        {/* <div className='grid md:grid-cols-2 gap-8'>
+        <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Property Finder'
             backgroundImg={propertyImg}
@@ -44,7 +43,7 @@ const Projects = () => {
             tech='Next JS'
 
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );
