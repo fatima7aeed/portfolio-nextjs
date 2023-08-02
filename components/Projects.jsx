@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/portfolio.png';
+import PortfolioImg from '../public/assets/projects/portfolio.png';
+import hairdayImg from '../public/assets/projects/hairday.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -15,15 +16,15 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
         <ProjectItem
   title='My Portfolio'
-  backgroundImg={propertyImg}
+  backgroundImg={PortfolioImg}
   projectUrl='https://fatimasaeed.vercel.app/' // Add your portfolio URL here
   tech='React JS'
-          // />
-          // <ProjectItem
-          //   title='Crypto App'
-          //   backgroundImg={cryptoImg}
-          //   projectUrl='/crypto'
-          //   tech='React JS'
+          />
+          <ProjectItem
+            title='Hair Day'
+            backgroundImg={hairdayImg}
+            projectUrl='https://hair-day-fatima7aeed.vercel.app/'
+            tech='HTML & CSS'
 
           // />
           // <ProjectItem
