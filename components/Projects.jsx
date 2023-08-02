@@ -23,7 +23,7 @@ const Projects = () => {
           <ProjectItem
             title='Hair Day'
             backgroundImg={hairdayImg}
-            projectUrl='https://hair-day-fatima7aeed.vercel.app/'
+            projectUrl='https://hairday.vercel.app/'
             tech='HTML & CSS'
 
           // />

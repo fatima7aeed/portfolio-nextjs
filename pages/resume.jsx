@@ -11,7 +11,8 @@ const resume = () => {
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
-        <link rel='icon' href='../public/logo-4.png' />
+        <link rel='icon' href='/logo-4.png' />
+
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
